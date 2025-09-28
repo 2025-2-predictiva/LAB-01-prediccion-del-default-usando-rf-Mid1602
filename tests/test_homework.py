@@ -15,37 +15,37 @@ MODEL_COMPONENTS = [
     "RandomForestClassifier",
 ]
 SCORES = [
-    0.785,
-    0.673,
+    0.735,
+    0.663,
 ]
 METRICS = [
     {
         "type": "metrics",
         "dataset": "train",
-        "precision": 0.944,
-        "balanced_accuracy": 0.785,
-        "recall": 0.580,
-        "f1_score": 0.719,
+        "precision": 0.914,
+        "balanced_accuracy": 0.735,
+        "recall": 0.520,
+        "f1_score": 0.673,
     },
     {
         "type": "metrics",
         "dataset": "test",
         "precision": 0.650,
-        "balanced_accuracy": 0.673,
-        "recall": 0.401,
-        "f1_score": 0.498,
+        "balanced_accuracy": 0.663,
+        "recall": 0.388,
+        "f1_score": 0.468,
     },
     {
         "type": "cm_matrix",
         "dataset": "train",
-        "true_0": {"predicted_0": 16060, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 2740},
+        "true_0": {"predicted_0": 16015, "predicted_1": None},
+        "true_1": {"predicted_0": None, "predicted_1": 2510},
     },
     {
         "type": "cm_matrix",
         "dataset": "test",
-        "true_0": {"predicted_0": 6670, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 760},
+        "true_0": {"predicted_0": 6370, "predicted_1": None},
+        "true_1": {"predicted_0": None, "predicted_1": 480},
     },
 ]
 
